@@ -1,5 +1,5 @@
 import { Nav, Navbar, NavbarBrand, NavItem, NavLink } from "reactstrap";
-import testLogo from './img/logo2.jpeg';
+import testLogo from '../img/logo2.jpeg';
 
 const Header = () => {
     return (
