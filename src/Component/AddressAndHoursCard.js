@@ -1,6 +1,9 @@
 import React from "react";
 
 const AddressAndHoursCard = ({ address, hours }) => {
+  // checking if pros are working debugging as could see any data.
+  console.log("Address:", address);
+  console.log("Hours:", hours);
   return (
     <div className="address-hour-card">
       <h2>Address</h2>
