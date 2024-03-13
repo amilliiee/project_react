@@ -1,0 +1,3 @@
+-Amelia will cover the Styling and menu is covered
+-Alan will make the reservation page
+-I'll cover the Routing and search area 
