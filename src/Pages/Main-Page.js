@@ -7,7 +7,6 @@ const MainPage = () => {
         <div>
             <Header />
             <RestaurantOverview/>
-            {/* <SearchArea/> */}
             <Footer />
         </div>
     )

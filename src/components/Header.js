@@ -1,24 +1,40 @@
-import { Nav, Navbar, NavbarBrand, NavItem, NavLink } from "reactstrap";
-import testLogo from '../img/logo2.jpeg';
+import { Nav, Navbar, NavbarBrand, NavItem, NavbarToggler, Collapse } from "reactstrap";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import NucampLogo from "../img/logo.png"
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+    
     return (
         <Navbar dark color='info' sticky='top' expand='md'>
-            <Nav>
-                <NavbarBrand>
-                    Restaurant
-                </NavbarBrand>
-                <NavItem>
-                    <NavLink active href="#">
-                        Link
-                    </NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#">
-                        Another Link
-                    </NavLink>
-                </NavItem>
-            </Nav>
+            <NavbarBrand className="ms-5" href="/">
+                <img src={NucampLogo} alt="nu-camp logo" className="float-start"/>
+                <h1>Restaurant</h1>
+            </NavbarBrand>
+
+            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
+            <Collapse isOpen={menuOpen} navbar>
+                <Nav className="ms-auto" navbar>
+                    <NavItem>
+                        <NavLink className="nav-link" to="/">
+                            Main Page
+                        </NavLink>
+                    </NavItem>
+                
+                    <NavItem>
+                        <NavLink className="nav-link" to="/reservation">
+                            Reservation Page
+                        </NavLink>
+                    </NavItem>
+
+                    <NavItem>
+                        <NavLink className="nav-link" to="/search">
+                            Search Page
+                        </NavLink>
+                    </NavItem>
+                </Nav>
+            </Collapse>
         </Navbar>
     )
 }
