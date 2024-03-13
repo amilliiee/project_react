@@ -1,20 +1,16 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import MainPage from './Pages/Main-Page';
-// import SearchArea from './components/SearchArea.js';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import SearchPage from './Pages/Search-Page';
-import ReservationPage from './Pages/ReservationPage';
+import Header from './Header.js';
+import Footer from './Footer.js';
+import RecipesPage from './pages/RecipesPage';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<MainPage/>}/>
-          <Route path="reservation" element={<ReservationPage/>}/>
-          <Route path='search' element={<SearchPage/>}/>
-        </Routes>
-      </BrowserRouter>
+      <Header />
+      <h4>Cards with dishes to choose?</h4>
+      <RecipesPage />
+      <Footer />
     </div>
   );
 }
