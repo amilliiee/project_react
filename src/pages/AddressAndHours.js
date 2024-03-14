@@ -1,8 +1,8 @@
 // MainComponent.js
 
 import React from "react";
-import ADDRESS from "../Component/ADDRESS";
-import AddressAndHoursCard from "../Component/AddressAndHoursCard";
+import ADDRESS from "../components/ADDRESS";
+import AddressAndHoursCard from "../components/AddressAndHoursCard";
 
 const AddressAndHours = () => {
   return (
