@@ -48,11 +48,11 @@
 
 /* Address and hours CSS */
 .address-hour-card {
-  border: 1px solid #ccc;
+  border: 10px solid #dc1212;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(132, 11, 11, 0.1);
 }
 
 .address-hour-card h2 {

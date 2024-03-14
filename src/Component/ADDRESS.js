@@ -16,7 +16,7 @@ const ADDRESS = {
 export default ADDRESS;
 
 // const ADDRESS = () => {
-//   const address = "123 Main St, City, Country";
+//   const address = "345 Broadway Ave, New York, NY";
 //   const hours = [
 //     "Monday: 9am - 10pm",
 //     "Tuesday: 9am - 10pm",
