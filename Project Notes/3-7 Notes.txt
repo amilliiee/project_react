@@ -1,0 +1,9 @@
+-Work on cards, etc to showcase recipes 
+-Landing page with interesting stuff, and another for the API call and search
+-Component for Cards on the landing page
+-Landing Page Header
+-Recipes for the cards
+	Try and look for themes for the meals
+	Reservation page and/or info page
+
+-Meet On Monday after 9pm 
