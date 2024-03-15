@@ -40,34 +40,3 @@
     transform: rotate(360deg);
   }
 }
-
-.card-img {
-  max-width: 200px;
-  max-height: 200px;
-}
-
-/* Address and hours CSS */
-.address-hour-card {
-  border: 10px solid #aba1a1;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 6px rgba(132, 11, 11, 0.1);
-}
-
-.address-hour-card h2 {
-  margin-bottom: 10px;
-}
-
-.address-hour-card p {
-  margin-bottom: 5px;
-}
-
-.address-hour-card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.address-hour-card li {
-  margin-bottom: 5px;
-}
