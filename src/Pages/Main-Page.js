@@ -5,9 +5,14 @@ import RestaurantOverview from "../components/Restaurant Overview"
 const MainPage = () => {
     return (
         <div>
-            <Header />
+            <div>
+                <Header />
+            </div>
             <RestaurantOverview/>
-            <Footer />
+            <RestaurantOverview/>
+            <div>
+                <Footer />
+            </div>
         </div>
     )
 }

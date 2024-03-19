@@ -1,12 +1,12 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import SearchArea from "../components/SearchArea"
+import SearchAreaDown from "../components/SearchArea-Unavailable"
 
 const SearchPage = () => {
     return(
         <div>
             <Header/>
-            <SearchArea/>
+            <SearchAreaDown/>
             <Footer/>
         </div>
     )
