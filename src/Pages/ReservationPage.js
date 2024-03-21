@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ReservationData from "../components/ReservationData";
@@ -20,3 +21,20 @@ const ReservationPage = () => {
 };
 
 export default ReservationPage;
+=======
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import ReservationData from "../components/ReservationData"
+
+const ReservationPage = () => {
+    return (
+        <div>
+            <Header/>
+            <ReservationData/>
+            <Footer/>
+        </div>
+    )
+};
+
+export default ReservationPage
+>>>>>>> 7b87cf2f48a4d4684c816cf143d36d8936678755
