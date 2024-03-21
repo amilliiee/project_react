@@ -21,6 +21,7 @@
 import { Button, Col, Container, Row } from "reactstrap"
 import { FormGroup, Label} from "reactstrap"
 import { Formik, Field, Form, ErrorMessage } from "formik"
+import { validateRequestForm } from "./validateRequestForm"
 
 
 
@@ -47,24 +48,30 @@ const SearchAreaDown = () => {
                     </div>
                 </Row>
                 <Row>
-                    <Formik initialValues={{name: undefined, type: undefined, description: ""}} onSubmit={handleSubmit}>
+                    <Formik initialValues={{name: undefined, type: undefined, description: ""}} onSubmit={handleSubmit} validate={validateRequestForm}>
                         <Form>
                             <FormGroup>
                                 <Label htmlFor="name">Recipe Name</Label>
                                 <Field name="name" placeholder="Your Recipe Name" className="form-control"/>
-                                {/* <ErrorMessage name="name"></ErrorMessage> */}
+                                <ErrorMessage name="name">
+                                    {(msg) => <p className='text-danger'>{msg}</p>}
+                                </ErrorMessage>
                             </FormGroup>
 
                             <FormGroup>
                                 <Label htmlFor="type">Type of Dish</Label>
                                 <Field name="type" placeholder="Meat, Vegetable, Entree, etc." className="form-control"/>
-                                {/* <ErrorMessage name="type"></ErrorMessage> */}
+                                <ErrorMessage name="type">
+                                    {(msg) => <p className='text-danger'>{msg}</p>}
+                                </ErrorMessage>
                             </FormGroup>
 
                             <FormGroup>
                                 <Label htmlFor="description">Description</Label>
                                 <Field name="description" as="textarea" rows="12" className="form-control" placeholder="A quick description of the dish"/>
-                                {/* <ErrorMessage name="description"></ErrorMessage> */}
+                                <ErrorMessage name="description">
+                                {(msg) => <p className='text-danger'>{msg}</p>}
+                                </ErrorMessage>
                             </FormGroup>
 
                             <Button type="submit" color="primary">

@@ -1,8 +1,8 @@
 import { Card, CardBody, CardImg, CardTitle, CardText, CardGroup } from "reactstrap";
-import Gelato from "../img/Food-Images/gelato-3932596_1280.jpg"
-import NeapolitanPizza from "../img/Food-Images/pizza-5275191_1280.jpg"
-import Ravioli from "../img/Food-Images/ravioli-7379303_1280.jpg"
-import Lasagna from "../img/Food-Images/background-8266544_1280.jpg"
+import Gelato from "../../img/Food-Images/gelato-3932596_1280.jpg"
+import NeapolitanPizza from "../../img/Food-Images/pizza-5275191_1280.jpg"
+import Ravioli from "../../img/Food-Images/ravioli-7379303_1280.jpg"
+import Lasagna from "../../img/Food-Images/background-8266544_1280.jpg"
 
 const RecipeCards = () => {
     return (

@@ -13,15 +13,15 @@ const RestaurantOverview = () => {
 							recipes to chose from!
 						</p>
 						<p>
-							Take A look below at some of the delicious meals we have to
-							offer!
+							Take A look below at some of the delicious meals we
+							have to offer!
 						</p>
 					</Row>
 				</Col>
 
 				<Col>
 					<Row>
-						<RecipeCards/>
+						<RecipeCards />
 					</Row>
 				</Col>
 			</Container>

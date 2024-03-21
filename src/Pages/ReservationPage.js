@@ -1,6 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import ReservationData from "../components/ReservationData"
+import ReservationData from "../components/Reservation Page Components/ReservationData"
 
 const ReservationPage = () => {
     return (

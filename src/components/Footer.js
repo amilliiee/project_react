@@ -1,11 +1,11 @@
-import { Container, Row, Col,footer } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import React from "react";
 
 
 const Footer = () => {
 	return (
-		<footer className="text-bg-alert" bgColor="info" >
+		<footer className="text-bg-alert dark bg-info " bgColor="info" >
 			<Container>
 				<Row>
 					<Col xs={{ size: 4, offset: 1 }} sm="2">
