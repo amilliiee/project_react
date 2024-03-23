@@ -1,15 +1,15 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import SearchArea from "../components/SearchArea"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import SearchAreaDown from "../components/Search Page Components/SearchArea-Unavailable";
 
 const SearchPage = () => {
-    return(
-        <div>
-            <Header/>
-            <SearchArea/>
-            <Footer/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      <SearchAreaDown />
+      <Footer />
+    </div>
+  );
+};
 
-export default SearchPage
+export default SearchPage;
