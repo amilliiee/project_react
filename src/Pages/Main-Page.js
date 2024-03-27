@@ -9,7 +9,6 @@ const MainPage = () => {
 				<Header />
 			</div>
 			<RestaurantOverview />
-			<RestaurantOverview />
 			<div>
 				<Footer />
 			</div>

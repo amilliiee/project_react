@@ -7,10 +7,10 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return (
-        <Navbar dark color='info' sticky='top' expand='md'>
+        <Navbar dark color='info' sticky='top' expand='md' className="customHeader">
             <NavbarBrand className="ms-5" href="/">
                 <img src={NucampLogo} alt="nu-camp logo" className="float-start"/>
-                <h1>Restaurant</h1>
+                <h1>NuCamp Restaurant</h1>
             </NavbarBrand>
 
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>

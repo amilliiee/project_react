@@ -4,6 +4,7 @@ import MainPage from './Pages/Main-Page';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import SearchPage from './Pages/Search-Page';
 import ReservationPage from './Pages/ReservationPage';
+import "./custom-css-garris/custom-css-garris.css"
 
 function App() {
   return (

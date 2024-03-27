@@ -5,7 +5,7 @@ import SearchAreaDown from "../components/Search Page Components/SearchArea-Unav
 const SearchPage = () => {
     return(
         <div>
-            <Header/>
+            <Header />
             <SearchAreaDown/>
             <Footer/>
         </div>

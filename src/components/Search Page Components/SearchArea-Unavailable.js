@@ -38,8 +38,8 @@ const SearchAreaDown = () => {
     }
 
     return (
-        <Container>
-            <Col>
+        <Container >
+            <Col className="my-5">
                 <Row>
                     <div>
                         <h1>Recipe Database</h1>
@@ -47,6 +47,9 @@ const SearchAreaDown = () => {
                         <p>In the meantime, you can fill out this form to request new recipes to be added.</p>
                     </div>
                 </Row>
+            </Col>
+                
+            <Col>
                 <Row>
                     <Formik initialValues={{name: undefined, type: undefined, description: ""}} onSubmit={handleSubmit} validate={validateRequestForm}>
                         <Form>

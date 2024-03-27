@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className="text-bg-alert dark bg-info " bgColor="info" >
+		<footer className="customFooter text-bg-alert dark bg-info  " bgColor="info" >
 			<Container>
 				<Row>
 					<Col xs={{ size: 4, offset: 1 }} sm="2">

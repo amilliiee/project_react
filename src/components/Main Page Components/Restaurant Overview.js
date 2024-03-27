@@ -5,9 +5,9 @@ const RestaurantOverview = () => {
 	return (
 		<div>
 			<Container>
-				<Col>
+				<Col className="mb-5">
 					<Row>
-						<h1>Welcome To "Restaurant Name" !</h1>
+						<h1>Welcome To The NuCamp Restaurant!</h1>
 						<p>
 							Here we have a wide selection of specially crafted
 							recipes to chose from!
